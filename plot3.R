@@ -44,5 +44,5 @@ legend('topright',
        lty = 1)
 
 # Write plot to working directory as .png
-dev.copy(png, 'plot3.png')
+dev.copy(png, width = 500, height = 500, 'plot3.png')
 dev.off()

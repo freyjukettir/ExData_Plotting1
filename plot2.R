@@ -30,5 +30,5 @@ plot(Global_active_power~date_time, df, type = 'l',
 axis.POSIXct(side = 1, at = x_axis_day_labels, format = "%a")
 
 # Write plot to disc as .png
-dev.copy(png, 'plot2.png')
+dev.copy(png, 'plot2.png', width = 500, height = 500)
 dev.off()

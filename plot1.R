@@ -19,5 +19,5 @@ hist(df$Global_active_power, col = 'red', main = "Global Active Power",
      xlab = "Global Active Power (kilowatts)")
 
 # Write plot to disc as .png
-dev.copy(png, 'plot1.png')
+dev.copy(png, width = 500, height = 500, 'plot1.png')
 dev.off()
