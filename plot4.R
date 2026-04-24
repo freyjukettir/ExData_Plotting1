@@ -48,7 +48,8 @@ lines(df$Sub_metering_2~df$date_time, type = 'l', col = 'red')
 # Add line for third relationship:
 lines(df$Sub_metering_3~df$date_time, type = 'l', col = 'blue')
 
-# Add x axis with the day labels created above
+# Add x axis with the day labels created above, specifying format as abbreviated
+# day name
 axis.POSIXct(side = 1, at = x_axis_day_labels, format = "%a")
 
 # Add legend, no border
